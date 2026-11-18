@@ -2,7 +2,7 @@
 
 In this lab I set up Authentik as the Identity Provider (IdP) for a WordPress site using SAML. The end result: a user clicks one button, logs in through Authentik, and lands in WordPress with an account created for them automatically.
 
-## Tools Used
+## Tools Provided To Help Me Complete This Lab
 
 - **WordPress**: the Service Provider (SP)
 - **miniOrange SAML 2.0 SSO plugin**: adds SAML support to WordPress
@@ -10,7 +10,7 @@ In this lab I set up Authentik as the Identity Provider (IdP) for a WordPress si
 
 ---
 
-## 1. Install the SAML Plugin in WordPress
+## 1. Install the SAML SSO Plugin in WordPress
 
 From the WordPress dashboard I went to Plugins and installed **miniOrange SAML Single Sign On**. The plugin lets WordPress act as a SAML Service Provider, so it can trust an IdP like Authentik to log users in.
 
