@@ -20,10 +20,8 @@ From the WordPress dashboard I went to Plugins and installed **miniOrange SAML S
 
 From the plugin I grabbed the two values Authentik needs:
 
-| Field | Value |
-|---|---|
-| **SP Entity ID / Issuer** | `http://server/wp-content/plugins/miniorange-saml-20-single-sign-on/` |
-| **ACS (Assertion Consumer Service) URL** | `http://server/` |
+| **SP Entity ID / Issuer** 
+| **ACS (Assertion Consumer Service) URL** 
 
 ## 2. Create a SAML Provider in Authentik
 
